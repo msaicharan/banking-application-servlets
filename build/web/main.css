@@ -1,0 +1,326 @@
+body {
+    font-family: "Lato", sans-serif;
+}
+.loader{
+      position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background: url('loading.gif') 50% 50% no-repeat rgb(249,249,249);
+    opacity: .8;
+}
+.nav{
+ width: 100%;
+    height: 60px;
+    position: fixed;
+     position: -webkit-sticky;
+    position: sticky;
+    box-shadow: 5px 5px 10px gray;
+    top: 1;
+    z-index: 1;
+    background-color: white;   
+}
+.a{
+    margin-top: 1px;
+   color: #ff3333;
+    height: 100px;
+    width: 100%;
+ /**/
+}
+.b{
+    
+    padding-bottom:10px;
+    width: 100px;
+    height: 80px;
+ float: left;
+ margin-right: 20px;
+ margin-top: -60px;
+  cursor: pointer;
+ 
+}
+@media only screen and (max-width: 425px) {
+  #login{
+    height: 40px;
+    margin-top: 5px;
+    line-height: 5px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  #login{
+    height: 40px;
+    margin-top: 5px;
+    line-height: 5px;
+  }
+}
+@media only screen and (max-width: 968px) {
+  body {
+      
+
+  }
+  #login{
+    height: 40px;
+    margin-top: 5px;
+    line-height: 5px;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  #createacc{
+    height: 40px;
+    margin-top: 5px;
+    line-height: 5px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  #createacc{
+    height: 40px;
+    margin-top: 5px;
+    line-height: 5px;
+  }
+}
+@media only screen and (max-width: 968px) {
+  body {
+      
+
+  }
+  #createacc{
+    height: 40px;
+    margin-top: 5px;
+    line-height: 5px;
+  }
+}
+#login{
+   width: 340px;
+   color: white;
+   font-size: 20px;
+   text-align: center;
+   margin-left: 100px;
+   float: right;
+   cursor: pointer;
+}
+
+#createacc{
+    width: 340px;
+   color: white;
+   font-size: 20px;
+   text-align: center;
+   margin-left: 100px;
+   float: right;
+
+}
+
+
+.sidenav {
+   
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    text-align: left ;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+    cursor: pointer;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+.form{
+    width: 100%;
+    height: 510px;
+    float: left;
+    background-image: url("lodhaimg.jpg");
+    margin-top: -15px;
+    z-index: 1;
+}
+.f1{
+    width: 100%;
+    height: 90px;
+   opacity: 0.9;
+    margin-top: 440px;
+  z-index: -1;
+
+}
+
+.button{
+  
+    width: 120px;
+    margin-right: 100px;
+    height: 50px;
+   float : right;
+    margin-top: -108px;
+
+}
+.l1{
+    margin-left: 16px;
+    width: 423px;
+    height: 440px;
+   float: left;
+   opacity: 0.94;
+  transition: 0.3s;
+}
+.l1:hover {
+ opacity: 1;
+ box-shadow: 8px 8px 5px #aaaaaa;
+ cursor: pointer;
+}
+.l2{
+    padding-left: 15px;
+    width: 426px;
+    height: 440px;
+    float: left;
+    opacity: 0.94;
+}
+.l2:hover {
+ opacity: 1;
+ box-shadow: 8px 8px 5px #aaaaaa;
+ cursor: pointer;
+}
+.l3{
+    margin-left: 18px;
+    width: 426px;
+    height: 440px;
+    float: left;
+    opacity: 0.94;
+}
+.l3:hover {
+ opacity: 1;
+ box-shadow: 8px 8px 5px #aaaaaa;
+ cursor: pointer;
+}
+.l4{
+    margin-top: 10px;
+    margin-left: 16px;
+    width: 642px;
+    height: 581px;
+    float: left;
+       opacity: 0.94;
+}
+.l4:hover {
+ opacity: 1;
+box-shadow: 8px 8px 5px #aaaaaa;
+cursor: pointer;
+}
+.l5{
+    margin-top: 12px;
+padding-left: 20px;
+    width: 638px;
+    height: 581px;
+float: left;
+       opacity: 0.94;
+}
+.l5:hover {
+ opacity: 1;
+ box-shadow: 8px 8px 5px #aaaaaa;
+ cursor: pointer;
+}
+.l6{
+     margin-left: 17px;
+    margin-top: 10px;
+   width: 424px;
+    height: 439px;
+    -webkit-transition: all .5s;
+    float: left;
+       opacity: 0.94;
+}
+.l6:hover {
+ opacity: 1;
+ box-shadow: 8px 8px 5px #aaaaaa;
+ cursor: pointer;
+}
+.l7{
+    margin-top: 10px;
+padding-left: 14px;
+    width: 423px;
+    height: 439px;
+    -webkit-transition: all .8s;
+    float: left;
+       opacity: 0.94;
+}
+.l7:hover {
+ opacity: 1;
+ box-shadow: 8px 8px 5px #aaaaaa;
+ cursor: pointer;
+}
+
+.l8{
+    margin-top: 10px;
+padding-left: 15px;
+    width: 424px;
+    height: 439px;
+    -webkit-transition: all .8s;
+    float: left;
+       opacity: 0.94;
+}
+.l8:hover {
+ opacity: 1;
+ box-shadow: 8px 8px 5px #aaaaaa;
+ cursor: pointer;
+}
+.l15{
+    width: 100%;
+    height: 240px;
+    background-image: url("l9.jpg");
+}
+.l9{
+    width: 33%;
+    height: 250px;
+    float: left;
+    font-size: 18px;
+    font-family: Verdana,sans-serif;
+     box-sizing: inherit;
+    color: #fff!important;
+    background-color: #000!important;
+
+}
+.l10{
+    width: 33%;
+    height: 250px;
+    float: left;
+        background-color: #616161!important;
+    color: white;
+    font-size: 18px;
+    font-family: Verdana,sans-serif;
+        box-sizing: inherit;
+}
+.l11{
+    width: 33%;
+    height: 250px;
+    float: left;
+    text-align: center;
+        background-color: #9e9e9e!important;
+    color: white;
+    font-size: 18px;
+    font-family: Verdana,sans-serif;
+        box-sizing: inherit;
+
+}

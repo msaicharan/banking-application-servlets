@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>LODHA GROUP</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="download.png">
+  <link rel="stylesheet" href="./main.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+<div class="nav">
+  <div class="a">
+  <div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="#">HOME</a>
+  <a href="rp.html" target="_blank">RESIDENTIAL PROJECTS</a><br>
+  <a href="cp.html" target="_blank">COMMERCIAL PROJECTS</a><br>
+  <a href="about.html">ABOUT</a><br>
+  <a href="contact.html">CONTACT US</a><br>
+</div>
+<br>
+
+<div id="login">
+  <form action="login.jsp">
+      <input type="submit" formtarget="_blank" value="Login">
+  </form>
+</div>
+
+<div id="createacc">
+<form action="createaccount.jsp" >
+    <input type="submit" formtarget="_blank" value="Create Account">
+</form>  
+</div> 
+<br>
+<div class="form">
+<div class="f1">
+<form autocomplete="on" style="font-size: 20px; font-family: arial"><span style="display: inline-block;width: 50px"></span>
+<select style="width: 300px;; padding: 5px">
+ <option value="nil" style="text-align: center">Select state</option>
+    <option value="s1">Maharashtra</option>
+    <option value="s2">Andhra Pradesh </option>
+     <option value="s3">Telangana</option>
+      <option value="s4">Gujrat</option>
+    <option value="s5">Delhi</option>
+  </select><span style="display: inline-block;width: 45px"></span>
+  <span style="display: inline-block;width: 45px"></span>
+  <select style="width: 200px; padding: 5px">
+ <option value="nil">Select City</option>
+    <option value="s1">Mumbai</option>
+    <option value="s2">Hyderabad </option>
+     <option value="s3">Delhi</option>
+      <option value="s4">Pune</option>
+    <option value="s5">Vijayawada</option>
+    <option value="s5">Trichy</option>
+  </select>
+  
+  <select style="width: 140px ; padding: 5px">
+ <option value="nil">Select Area</option>
+    <option value="s1"> Navi Mumbai </option>
+    <option value="s2"> Mumbai Suburban </option>
+     <option value="s3"> South Mumbai</option>
+      <option value="s4">Thane</option>
+    <option value="s5">Begumpet</option>
+    <option value="s6">Khairtabad</option>
+    <option value="s6"> Secunderabad</option>
+  </select>
+</form>
+</div>
+<div class="button"> 
+  <span style="display: inline-block;width: 40px"></span>
+  <button type="button" onclick="#" style="width: 120px; height: 30px; font-family: arial black ; font-weight: 8px; color: white; background-color: #ff9900">SEARCH</button>
+</div>
+</div>
+<span style="display: inline-block;width: 20px"></span>
+
+<hr style=" border-style: inset; border-width: 1px;border-color: grey"><br><br>
+<div class="l15">
+  <br>
+<h3 style="font-size: 18px; text-align: center; position: relative;font-family: "Lato", Helvetica, Arial, sans-serif;">About ABC Group</h3>
+<p style="text-align: center; font-size: 17px; color: black; ">
+  Established in 1980, ABC Group is a privately held company and India's No 1 private sector bank with presence in India and the United Kingdom. ABC Group belongs to one of the most profitable banks in India and the largest for three consecutive years.
+  Our vision of 'Building a Better Life' extends across markets with several developments and schemes in the country with more than 2500 branches.
+</p>
+</div>
+<footer>
+  <div class="l9" style="height:250px;font color: white">
+    <h2 style="text-align: center;"><b>Contact Info</b></h2>
+    <p><span style="display: inline-block;width: 14px"></span><i class="fa fa-map-marker" style="width:30px"></i> Worli, Mumbai</p>
+    <p><span style="display: inline-block;width: 14px"></span><i class="fa fa-phone" style="width:30px"></i> Phone: +022 2756424</p>
+    <p><span style="display: inline-block;width: 14px"></span><i class="fa fa-envelope" style="width:30px"> </i> Email: <a href="mailto:someone@example.com?" style="color: white;"> contact@dbank.com</a></p>
+  </div>
+  <div class="l10" style="height:250px">
+    <h2 style="text-align: center;"><b>Careers</b></h2>
+    <p><span style="display: inline-block;width: 14px"></span>Want to work with us?</p>
+    <p><span style="display: inline-block;width: 14px"></span>Drop your resume at <a href="mailto:someone@example.com?" style="color: white;">careers@dbank.com</a></p>
+      </div>
+  <div class="l11" style="height:250px">
+    <h2 style="text-align: center;"><b>Like Us</b></h2>
+    <i class="w3-xlarge fa fa-facebook-official"></i><br>
+    <i class="w3-xlarge fa fa-pinterest-p"></i><br>
+    <i class="w3-xlarge fa fa-twitter"></i><br>
+    <i class="w3-xlarge fa fa-flickr"></i><br>
+    <i class="w3-xlarge fa fa-linkedin"></i>
+  </div>
+<br><br>
+<div class="l13" style="float: right; padding-right: 20px; font-weight: bold;">
+  <p>Powered by <a href="https://google.com" target="_blank">xyz</a></p>
+</div>
+</footer>
+
+
+<script>
+
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px" ;
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}
+$(document).ready(function () {
+    $(window).load(function () {
+        setTimeout(function(){
+            $('.loader').fadeOut('slow', function () {
+            });
+        },1500); 
+    });  
+});
+
+
+
+</script>
+
+</body>
+</html>
